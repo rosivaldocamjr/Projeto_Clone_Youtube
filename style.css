@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+/* Menu Superior */
+#youtube { 
+    width: 100px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+#avatar {
+    width: 30px;
+    margin-right: 25px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dedede;
+    height: 55px;
+}
+.navbar1, .navbar2, .navbar3 {
+    display: flex;
+    align-items: center;
+}
+.navbar2 {
+    margin-right: 100px;
+}
+.navbar1 { margin-left: 35px; }
+.navbar3 {
+    margin-right: 33px;
+}
+.sino, .menu-pontos {
+    margin-right: 40px;
+}
+.input {
+    height: 40px;
+    width: 600px;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.input::placeholder {
+    font-size: 17px;
+    color: #00000070;
+    padding-left: 1px;
+}
+.botao-pesquisar {
+    height: 40px;
+    width: 63px;
+    border: 1px solid #dedede;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.botao-pesquisar:hover {
+    background-color: #dedede;
+}
+.microfone {
+    margin-left: 10px;
+    background-color: #dedede50;
+    padding: 11px;
+    cursor: pointer;
+    border-radius: 40px
+}
+
+/* Menu Esquerdo */
+.menu-esquerdo {
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    align-items: center;
+    height: 91vh;
+    border-right: 1px solid #dedede;
+}
+.icon {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.icon:hover {
+    background-color: #dedede80;
+}
+.icon > p {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+/* Botoes Superiores */
+.botoes {
+    display: flex;
+    width: 1259px;
+    justify-content: center;
+    position: absolute;
+    top: 57px;
+    left: 90px;
+    border-bottom: 1px solid #dedede;
+    padding: 13px 0;
+}
+.botao {
+    margin-right: 17px;
+    border-radius: 15px;
+    width: 65px;
+    height: 30px;
+    border: 1px solid #33333340;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.botao:hover {
+    background-color: #dedede;
+}
+.b6 { width: 75px; }
+.b8 { width: 115px; }
+
+/* Conteudo Principal */
+.principal {
+    display: flex;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+}
+.principal2 {
+    display: flex;
+    position: absolute;
+    top: 420px;
+    left: 140px;
+}
+.titulo-video {
+    display: flex;
+    align-items: center;
+    width: 255px;
+    font-size: 15px;
+    margin-top: 9px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.imagem-titulo {
+    width: 35px;
+    margin-right: 13px;
+}
+.imagem-principal {
+    margin-right: 30px;
+}
+.seta {
+    height: 70px;
+    color: #dedede;
+    font-size: 60px;
+    position: relative;
+    top: 40px;
+    left: -15px;
+    cursor: pointer;
+}
+.video {
+    cursor: pointer;
+}
+.subtitulo {
+    color: #00000090;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 48px;
+    line-height: 19px;
+}
